@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 
 html, body {
     margin: 0px;
@@ -7,21 +7,7 @@ html, body {
     overflow:visible;
 }
 
-.headerDiv {
-    position: fixed;
-    width: 100%;
-    height: 75px;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(0,0,0,0.25);
-    border-left: none;
-    border-right: none;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-    display: flex;
-    z-index: 999;
-    top: 0px;
-}
+
 
 .headerDivLogo {
     position: relative;
@@ -33,14 +19,10 @@ html, body {
     position: relative;
     width: 600px;
     height: 465px;
-    background: rgba(235, 239, 240);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     position: relative;
     margin: 10px 2.5px 20px 2.5px;
     left: 50%;
-    top: 100px;
+    top: 0px;
     transform: translate(-50%);
     text-align: center;
 }
@@ -114,44 +96,34 @@ p {
     color: red;
 }
 
-#resetPassword {
-    position: relative;
-    top: 15px;
-    left: -60px;
-    color: #00a790;
-    float: left;
-}
+
 
 .logInButton {
     position: relative;
     top: 30px;
-    width: 95%;
-    background-color: #68d5f7;
+    width: 55%;
+    background-color: magenta;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     border: none;
+    border-radius: 85%;
 }
 
 hr {
     width: 95%;
 }
 
-.orLabel {
-    position: relative;
-    top: -20px;
-    width: 75px;
-    display: inline-block;
-    background: rgba(235, 239, 240, 1);
-}
+
 
 .singUpButton {
     position: relative;
     top: 10px;
-    width: 95%;
-    background-color: #68d5f7;
+    width: 55%;
+    background-color: magenta;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     border: none;
+    border-radius: 85%;
 }
 
 @media screen and (max-width: 675px) {
